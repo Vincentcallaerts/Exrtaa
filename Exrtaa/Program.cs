@@ -20,10 +20,11 @@ namespace Exrtaa
             stad = Console.ReadLine();
             Console.WriteLine("Geef je postcode in: ");
             postcode = Console.ReadLine();
-
+            
+            Console.WriteLine();
             Console.WriteLine($"Naam: {voornaam} {naam}");
             Console.WriteLine($"Straat: {straat} {nummer}, {postcode} {stad}");
-            Console.WriteLine();
+           
             Console.ReadLine();
         }
     }
